@@ -39,8 +39,7 @@ end
 
 Now `bundle install` and `bundle exec rspec spec` to view your specs run live in Proctor.
 
-The formatter has to output in the terminal.
-
+The formatter has to output in the terminal.  
 To use `proctor-rspec` with other formatters for terminal output, simply pass `rspec` the `-f` flag:
 
     bundle exec rspec spec -f documentation
@@ -63,7 +62,7 @@ To use `proctor-rspec` with other formatters for terminal output, simply pass `r
   <tr>
     <td>server.port</td>
     <td>false</td>
-    <td>8888</td>
+    <td>3000</td>
     <td>The port that the Proctor server is running on.</td>
   </tr>
   <tr>
