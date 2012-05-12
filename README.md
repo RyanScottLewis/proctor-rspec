@@ -37,6 +37,14 @@ RSpec.configure do |c|
 end
 ```
 
+Now `bundle install` and `bundle exec rspec spec` to view your specs run live in Proctor.
+
+The formatter has to output in the terminal.
+
+To use `proctor-rspec` with other formatters for terminal output, simply pass `rspec` the `-f` flag:
+
+    bundle exec rspec spec -f documentation
+
 ## Configuration
 
 <table>

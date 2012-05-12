@@ -3,6 +3,7 @@ PATH
   specs:
     proctor-rspec (0.1.0)
       activeresource (~> 3.2)
+      guard-rspec (~> 0.7)
       net-http-spy (~> 0.2)
       rspec (~> 2.9)
       uniform_resource_identifier (~> 0.1)
