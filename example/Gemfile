@@ -1,0 +1,5 @@
+source 'http://rubygems.org'
+
+gem 'proctor-rspec', path: File.expand_path('..')
+gem 'fuubar' # Run with `-f Fuubar` to use multiple formatters!
+gem 'guard-rspec'
